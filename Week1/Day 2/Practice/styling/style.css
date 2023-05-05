@@ -1,0 +1,28 @@
+h1{
+    background-color: black;
+    color: #fff;
+    font-family: cursive;
+    
+    
+}
+h2{
+    background-color: purple;
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    font-style: italic;
+}
+
+   
+h3{
+    background-color: aquamarine;
+    text-decoration: underline;
+    text-align: end;
+    font-family: cursive;
+   
+}
+span{
+    color:aqua;
+
+  
+}
