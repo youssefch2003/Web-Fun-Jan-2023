@@ -1,0 +1,56 @@
+* {
+   
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.octocat {
+    height: 200px;
+}
+.container{
+   
+    height: 830px;
+    width: 700px;
+    padding: 30px;
+    display: block;
+    background-color: gray;
+    
+   
+    
+ 
+
+
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+   
+}
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: palevioletred;
+    padding: 20px;
+    margin: 10px;
+}
+.k{
+    
+
+
+}
