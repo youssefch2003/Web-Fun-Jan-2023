@@ -1,0 +1,40 @@
+
+.container{
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+    border-color: rgba(115, 117, 119, 0.055);
+    border: 2px solid;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.box1{
+    background-color: aqua;
+    height: 80px;
+
+}
+.box2{
+    position: absolute;
+    left: 40px;
+    padding: 10px;
+    
+    
+
+}
+.pic{
+    width: 20px;
+    height: 20px;
+}
+.user{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    
+    
+
+}
