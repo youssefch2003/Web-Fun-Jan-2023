@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: #333333;
+    color: #ffffff;
+    height: 80px;
+    width: 100%; /* for styling purposes */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 200px;
+}
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+main{
+    display: flex;
+    align-items: center;
+}
+
+.flex-container {
+    width: 40%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+.connection{
+    width: 455px;
+    display: block;
+    align-items: center;
+    position: relative;
+    bottom: 193px;
+    left: 50px;
+
+    border: 2px solid #999;
+    
+}
+.conn{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.add{
+    display: inline-block;
+    justify-content: space-around;
+    border: 2px solid #999;
+}
+ .k{
+    width: 444px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+
+}
+#kkk{
+    margin: 3px;     
+    background-color: #f3f3f3;
+    color: #000000;     
+    border-radius: 50%;  
+   padding: 4px;
+    height: 15px;
+    width: 10px;   
+    margin-left: 15px;
+    
+}
+#kkkk{
+    margin: 3px;     
+    background-color: #f3f3f3;
+    color: #000000;     
+    border-radius: 50%;  
+   padding: 4px;
+    height: 15px;
+    width: 35px;   
+    margin-left: 15px;
+    
+}
+
+.m{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+}
+.ur{
+    position: relative;
+    right: 400px;
+
+}
+main{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
