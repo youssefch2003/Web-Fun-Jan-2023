@@ -13,7 +13,7 @@
         <div class="nav">
         <div id="title"><h1 >Dojonary</h1></div>
         <div><input class="search" type="text" placeholder="Search"></div>
-        <div id="title1"><button>Login</button></div>
+        <div id="title1"><button onclick="logout(this)">Login</button></div>
         
     </div></header>
     <!-- body -->
@@ -25,7 +25,7 @@
                 <h2 id="k2">ninja</h2>
                 <h4>noun</h4>
                 <h2>plural:ninjas</h2>
-                <button  id="bat">0 likes</button>
+                <button onclick="change()" id="bat">0 likes</button>
              </div>
         <div class="m">
             <p > A practitioner skilled in the <a href="">Japanese</a>art of<a href="">ninjutsu</a></p>
@@ -38,7 +38,7 @@
                 <h2 id="k2">ninja</h2>
                 <h4>noun</h4>
                 <h2>plural:ninjas</h2>
-                <button id="bat">0 likes</button>
+                <button id="bat" onclick="change()">0 likes</button>
              </div>
         <div class="m">
             <p > A practitioner skilled in the <a href="">Japanese</a>art of<a href="">ninjutsu</a></p>
@@ -50,17 +50,18 @@
        
         <div class="n3">
             <div class="kk">
-                <p >dojonay is defined by <span>you</span> </p>
+                <p >dojonay is defined by <span id="yo">you</span> </p>
                 
              </div>
         <div class="add">
-            <button id="bat2">Add Definitionn</button>
+            <button id="bat2" onclick=" rem(this)">Add Definitionn</button>
            
 
         </div>
         </div>
     </div>
     </main>
+    <script src="scripte.js"></script>
 
     
    
