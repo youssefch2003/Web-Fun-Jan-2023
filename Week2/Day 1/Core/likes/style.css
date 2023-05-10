@@ -1,0 +1,57 @@
+{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+}
+
+.container{
+    width: 1080px;
+    display: flex;
+    align-items: center;
+    margin: 80px 160px 80px 200px ;
+
+}
+
+
+
+/* left */
+
+
+
+
+.n1{
+    width: 500px;
+    height: 250px;
+    border-color: black;
+    border: 2px solid;
+    margin-bottom: 25px;
+    padding: 25px;
+
+}
+.k {
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.m{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#bat{
+    width: 140px;
+    height: 40px;
+    background-color:goldenrod ;
+    margin-top: 0px;
+}
+.likec{
+    display: flex;
+    margin-top: 0px;
+}
+#k2{
+    margin-top: 0px;
+}
