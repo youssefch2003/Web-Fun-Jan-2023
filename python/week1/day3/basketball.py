@@ -43,7 +43,8 @@ class Player:
         self.age = dict['age']
         self.position = dict['position']
         self.team = dict['team'] 
-
+    @classmethod
+    def 
 #2
 kevin = {
     	"name": "Kevin Durant", 
