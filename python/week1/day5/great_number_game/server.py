@@ -7,11 +7,14 @@ app.secret_key = "lalalalalalal"
 def hello():
     if  'num' not in session :
         session['num']= random.randint(1, 100) 
-    return render_template('index.html')
+    if 'choice ' not in session :
+        session['choice']=1
 
+    return render_template('index.html')
+   
 @app.route('/check',methods=['post'])
 def check():
-    session['choice'] = int( request.form['ran'])s
+    session['choice'] = int( request.form['ran'])
         
     return redirect('/')
 

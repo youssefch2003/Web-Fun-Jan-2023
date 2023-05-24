@@ -22,11 +22,11 @@
         <button><a href="/res">play again</a></button>
     {% endif %}
 
-    {% if session['num'] < session['choice'] and (session['choice'])!= 0 %}
+    {% if session['num'] < session['choice'] %}
         <p>too high</p>
     {% endif %}
 
-    {% if session['num'] > session['choice']  and (session['choice'])!= 0 %}
+    {% if session['num'] > session['choice']  %}
         <p>too low, try again</p>
     {% endif %}
 
