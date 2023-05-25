@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{color: azure;}
+    </style>
+</head>
+<body>
+    <h2>Edit {{user.first_name}} {{user.last_name}}</h2>
+    <form action="/users/update/{{user.id}}" method="post">
+        <div class="form-group">
+            <label for="">First Name</label>
+            <input type="text" name="first_name" class="form-control" value="{{user.first_name}}">
+        </div>
+        <div class="form-group">
+            <label for="">Last Name</label>
+            <input type="text" name="last_name" class="form-control" value="{{user.last_name}}">
+        </div>
+        <div class="form-group">
+            <label for="">email</label>
+            <input type="text" name="email" class="form-control" value="{{user.email}}">
+        </div>
+       
+        <input type="hidden" value="{{user.id}}" name="id">
+        <input type="submit" value="update user">
+        <button class="btn-danger"><a href="/users/show/{{user.id}}">show user</a></button>
+    
+        </form>
+    
+</body>
+</html>
